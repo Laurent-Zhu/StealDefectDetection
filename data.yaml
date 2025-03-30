@@ -1,0 +1,5 @@
+train: /home/laurentzhu/数据集/NEU-DET/train/images  # 训练数据集路径
+val: /home/laurentzhu/数据集/NEU-DET/valid/images  # 验证数据集路径
+
+nc: 6  # 类别数
+names: ['crazing', 'inclusion', 'patches', 'pitted_surface', 'rolled-in_scale', 'scratches']  # 类别名称
